@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background-color: black;
+}
+main section{
+    background-color: aqua;
+    width: 30%;
+}
+
+main>section>img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+main section div{
+ /* background-color: white; */
+ margin: auto;
+ width: 60%;
+  color: blue;
+  display: flex;
+  justify-content: space-between;
+}
+.fa-stop{
+    display: none;
+}
+main>section>#ipContent{
+width: 100%;
+display: flex;
+justify-content: end;
+}
+
+main>section>#ipContent>input
